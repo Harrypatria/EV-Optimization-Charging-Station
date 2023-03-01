@@ -18,3 +18,26 @@ Outputs include a map with clusters of retail locations that could benefit from 
 - 6.	Map this using Folium – think of heat maps/other ways to visualize the data
 - 7.	Use k-means clustering to cluster those locations to create centers of zones containing good locations. Those zones, their centers and addresses will be the final result of our analysis.
 
+### Discussion
+While this project does a good job demonstrating how data science can be used to inform energy 
+infrastructure siting decisions, the analysis could be improved in many different ways. A few are 
+listed here but should not be considered an exhaustive list:
+- (a) Socio-economic as well as demographic factors need to be considered when prioritizing 
+siting locations. Here is an excellent article summarizing policies and actions being taken to 
+expand access to electric transporation among low income groups and apartment dwellers
+- (b) Siting analysis may need to take into considerations the practicality of EV charging 
+installations - zoning permits, transmission capacity to support supply of electricity for EV 
+charging etc. are some factors that could affect EV charging installations
+- (c) Demand for EV charging is another really important factor. If there are not enough EVs 
+driving through the region that need to stop and charge - there may not be any incentive for 
+installation of EV chargers. North Carolina DMV has recently started releasing EV registration 
+data in NC counties . This could indicate how many EV owners currently reside in NC. Market 
+research could also be performed to explore the out-of-state EV traffic passing through NC.
+
+### Conclusion
+This project provides a simple example of utilization of k-means clustering technique in the 
+clean energy sector. Data cleaning and manipulation, application of algorithms, and subsequent 
+data visualization are the primary steps involved in any problem that needs to be solved using 
+data analytics. I hope that this notebook provides a source of reference for those starting to 
+explore data-driven solutions to their business problems.
+
